@@ -7,4 +7,6 @@
 
 
 
-![085c5c1b-8ce8-40de-be54-601c42bebad0](https://user-images.githubusercontent.com/92260175/187210273-9d501c4c-f64f-4830-b92e-5ce6ca13c3d4.png) ![14dc7553-8f57-44d6-a533-bc79e1727a6e](https://user-images.githubusercontent.com/92260175/187210288-d24721be-9660-4b18-91c5-4b1bed10c030.png)
+<code><img width="10%" src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg"></code>
+<code><img width="10%" src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg"></code>
+
