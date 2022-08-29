@@ -1,0 +1,72 @@
+body{
+    background-color: lightpink;
+}
+
+h1{
+    text-align: center;
+}
+
+.form{
+    background-color: azure;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    display: inline-block;
+}
+#header{
+    margin: 0rem;
+}
+sup{
+color:red;
+}
+#salha{
+    font-weight: bold;
+   
+}
+
+#salha2{
+    color: red;
+    margin-right: 35rem;
+    margin-top: 100px;
+}
+.salha3{
+    /* margin-right: 19rem; */
+    margin-top: 1px;
+  
+}
+
+#salha6{
+    color: green;
+    margin-right: 35rem;
+  margin-top: 25rem;
+  
+}
+.chck{
+ margin-left: 1rem;
+ margin-bottom: 5rem;
+   
+
+}
+
+#role{
+ /* margin-left:20rem; */
+margin-right: 19rem;
+    
+}
+#fcc{
+
+margin-right: 15rem;
+}
+/* #lblfcc{
+   margin-right: 15rem;
+ 
+  
+} */
+/* #salha2{
+color:red;
+margin-right: 35rem;
+
+margin-top: 10rem;
+
+} */
+
