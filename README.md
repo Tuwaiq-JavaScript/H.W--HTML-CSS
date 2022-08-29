@@ -1,5 +1,5 @@
 # H.W--HTML-CSS
-> Develope a website in HTML, as show in the picture bellow.
+> Develope a website in HTML & CSS, as show in the picture bellow.
 
 ## Survay Form
 
