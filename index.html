@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HW-HTML-CSS</title>
+    <link rel="icon" type="image/x-icon" href="./img/icon.png">
+
+    <link rel="stylesheet" href="./CSS/style.css">
+
+</head>
+
+<body>
+    <h1>Survey Form</h1>
+    <div id="form">
+        <from>
+            <p>Let us know how we can improve freeCodeCamp</p>
+            <br>
+            <section id="section1">
+                <lable>Name:</lable><input type="text" placeholder="Enter your name" /><br><bR>
+                <label>Email:</label><input type="text" placeholder="Enter your email" /><br><br>
+                <label>Age:</label><input type="number" placeholder="Enter your age" /><br><br>
+            </section>
+            <section id="section2">
+            <label>Which option best describes your current rule?</label>
+            <select class="dropdown" name="role" required>
+                <option value="student">Student</option>
+            </select>
+            <br><br><bR>
+            <label>How likely is that you would recommend freeCodeCamp to a friend?</label><br>
+            <input type="radio" name="an" value="Definitely" />
+            <label for="Definitely">Definitely</label><br>
+            <input type="radio" name="an" value="Maybe" />
+            <label for="maybe">Maybe</label><br>
+            <input type="radio" name="an" value="Not sure" />
+            <label for="notSure">Not sure</label>
+            <br><br><br>
+            <label>What do you like most in FCC:</label>
+            <select class="dropdown" name="like" required>
+                <option disabled selected value>Select an option</option>
+            </select>
+            <br><br><bR>
+
+            <label>Things that should be improved in the future(Check all that apply):</label><br>
+            <input type="checkbox" name="thing1" value="front">
+            <label for="thing1"> Front-end projects</label><br>
+            <input type="checkbox" name="thing2" value="back">
+            <label for="thing2"> Back-end projects</label><br>
+            <input type="checkbox" name="thing3" value="data">
+            <label for="thing3"> Data Visualization</label><br><br>
+            </section>
+            </form>
+    </div>
+</body>
+
+</html>
