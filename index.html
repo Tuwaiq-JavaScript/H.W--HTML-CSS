@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+    <link rel="icon" href="img/favicon.ico" type="image/icon type">
+</head>
+
+<body>
+
+    
+    <h1 id="h1">Survey Form</h1>
+
+
+    <div id="div-1">
+
+       <h1 class="textStyle" id="text1" >Let us know how we can improve freeCodeCamp</h1><br><br>
+
+
+    <form target="https://www.google.com" method="POST" >
+
+
+    <label for="name" class="textStyle">*Name :</label>
+    <input type="text" id="name" placeholder="Enter your name " />
+    <br/><br/>
+    <label for="email" class="textStyle" >*Email :</label>
+    <input type="text" id="name" placeholder="Enter your email " />
+    <br/><br/>
+    <label for="age" class="textStyle" >*Age :</label>
+    <input type="number" id="age" placeholder="Enter your age " />
+    <br/><br/>
+    <label for="role" class="textStyle"  >Which option best describes your current role? </label>
+    <select name="roles" id="role">
+    <option value="student" class="textStyle" >Student</option>
+    <option value="employee" class="textStyle" >Employee</option>
+  </select>
+  <br/><br/>
+
+    <label class="textStyle" >*How likely is that you would recommend freeCodeCamp to a friend?</label>
+    <div>
+    <input type="radio" name="radio1" id="definitly" />
+    <label for="definitly" class="textStyle" >Definitly</label>
+    <br/>
+    <input type="radio" name="radio1" id="maybe" />
+    <label for="maybe" class="textStyle" >Maybe</label>
+    <br/>
+    <input type="radio" name="radio1" id="notSure" />
+    <label for="notSure" class="textStyle" >Not Sure</label>
+</div>
+<br/>
+
+    <label for="role" class="textStyle" >What do you like most in FCC? </label>
+    <select name="liked" id="role">
+    <option value="select" class="textStyle" >Select an option</option>
+    <option value="first" class="textStyle" >First Option</option>
+    <option value="second" class="textStyle" >Second Option</option>
+  </select>
+  <br/><br/>
+
+
+  <label class="textStyle" >Things that should be improved in the future(Check all that apply): </label>
+  <div>
+  <input type="checkbox" id="checkbox1" name="Front-end">
+  <label for="checkbox1" class="textStyle" > Front-end Projects</label><br>
+  <input type="checkbox" id="checkbox2" name="Back-end">
+  <label for="checkbox2" class="textStyle" > Back-end Projects</label><br>
+  <input type="checkbox" id="checkbox3" name="Data">
+  <label for="checkbox3" class="textStyle" > Data Visualization</label><br><br>
+</div>
+
+        <input type="submit" value="Submit" />
+
+    </form>
+
+    </div>
+
+</body>
+
+
+
+</body>
+
+</html> 
