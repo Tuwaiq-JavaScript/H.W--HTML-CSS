@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(126, 201, 219);
+  }
+
+  
+  #h1{
+    font-size: 3rem;
+    font-style: bold;
+    text-align: center;
+      }
+
+      #text1{
+        text-align: center;
+      }
+
+  #div-1{
+    background-color: white;
+    margin-top:2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    text-align:center;
+  }
+
+  .textStyle{
+    font-family: serif;
+    font-size: 17px;
+    margin: 10px;
+}
+
+input[type=text],input[type=number], select{
+    width: 15%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+
+   input[type=submit] {
+      width: 8%;
+      margin-top: 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 5px;
+    }
+
+  
