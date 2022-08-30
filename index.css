@@ -1,0 +1,29 @@
+#bodystyle{
+    background-color:rgb(19, 216, 150)
+}
+
+#subdiv{
+background-color: aliceblue;
+margin: 2rem;
+font: 1em sans-serif;
+font-size: small;
+margin-top: 2rem;
+margin-bottom: 2rem;
+padding-top: 1rem;
+padding-left: 30rem;
+padding-bottom: 2rem;
+
+
+}
+
+#h1-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
