@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+    <link rel="icon" type="favicon.ico" href="favicon.ico">
+</head>
+<body>
+    <h1 id="title" >Survey Form</h1>
+    <div id = "formDiv">
+        <p>Let us know how we can improve freeCodeCamp</p>
+        <form>
+
+            
+        <div class="rowTab">
+        <div class="labels">
+        <label for="name"  id="name">* Name:</label>
+        </div>
+        <div class="rightTab">
+        <input type="text" name="name" class="input-field" placeholder="Enter your name">
+        </div>
+        </div>
+
+
+
+        <div class="rowTab">
+        <div class="labels">
+        <label forname="email" for="email">* Email:</label>
+        </div>
+        <div class="rightTab">
+        <input type="email" name="email" id="email" class="input-field" placeholder="Enter your email">
+        </div>
+        </div>
+        
+            
+        <div class="rowTab">
+        <div class="labels">
+        <label for="age"  id="age">* Age:</label>
+        </div>
+        <div class="rightTab">
+        <input type="number" name="age" class="input-field" id="number" placeholder="Age">
+        </div>
+        </div>
+
+
+
+        <div class="rowTab">
+        <div class="labels">
+        <label for="role" id="role">Which option best describes your current role?</label>            
+        </div>
+        <div class="rightTab">
+        <select id="dropdown" name="currentPos" class="dropdown">
+            <option disabled selected value>Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="Other">Other</option>
+        </select>
+        </div>
+        </div>
+
+
+        <div class="rowTab">
+        <div class="labels">
+        <label for="userRating">* How likely is that you would recommend freeCodeCamp to a friend?</label>
+        </div>
+        <div class="rightTab">
+        <ul style="list-style: none;">
+            <li class="radio"><label>Definitely<input name="radio-buttons" value="1" type="radio" class="userRatings"></label></li>
+            <li class="radio"><label>Maybe<input name="radio-buttons" value="2" type="radio" class="userRatings"></label></li>
+            <li class="radio"><label>Not sure<input name="radio-buttons" value="3" type="radio" class="userRatings"></label></li>
+        </ul>
+        </div>
+        </div>
+    
+
+
+        <div class="rowTab">
+        <div class="labels">
+        <label for="like" >What do you like most in FCC:</label>
+        </div>
+        <div class="rightTab">
+        <select id="like" name="Like" class="dropdown">
+            <option disabled selected value>Select an option</option>
+            <option value="11">11</option>
+            <option value="22">22</option>
+            <option value="33">33</option>
+            <option value="44">44</option>
+        </select>
+        </div>
+        </div>
+
+
+        
+        
+        <div class="rowTab">
+        <div class="labels">
+        <label for="preferences">Things that should be improved in the future<br>(Check all that apply): </label>
+        </div>
+        <div class="rightTab">
+        <ul id="preferences" style="list-style: none;">
+            <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Front-end Projects</label></li>
+            <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">Back-end Projects</li>
+            <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Data Visualization</label></li>
+        </ul>
+        </div>
+        </div>
+
+
+
+        <button id="submit" type="submit">Signup</button>
+
+
+
+        </form>
+         
+</div>
+</body>
+</html>
