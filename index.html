@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <div id="container">
+        <form>
+        <p>Let us know how we can improve free</p>
+        <label for="name">*Name:</label>
+        <input type="text" name="name" placeholder="Enter your name"/>
+        <br/>
+        <br/>
+        <label for="email">*Email:</label>
+        <input type="email" name="email" placeholder="Enter your email"/>
+        <br/>
+        <br/>
+        <label for="age">*Age:</label>
+        <input type="number" name="age" placeholder="Enter your age"/>
+        <br/>
+        <br/>
+        <label for="role">Which option best discribe your role?</label>
+        <select name="role" id="role">
+            <option value="student">student</option>
+            <option value="developer">developer</option>
+        </select>
+        <br/>
+        <br/>
+        
+        <label for="recommend">How likely is that you would recommend freeCodeCamp to a friend?</label>
+        <div id="box1">
+        <input type="radio" name="recommend"/>
+        <label for="recommend">Definitely</label>
+        <br/>
+        <br/>
+        <input type="radio" name="recommend"/>
+        <label for="recommend">Maybe</label>
+        <br/>
+        <br/>
+        <input type="radio" name="recommend"/>
+        <label for="recommend">not sure</label>
+    </div>
+        <br/>
+        <br/>
+        <label for="role">what do you like in FCC:</label>
+        <select name="like" id="like">
+            <option value="option">select an option</option>
+        </select>
+        <br/>
+        <br/>
+        <label for="recommend">Things that should be improved in the future (check all that apply) :</label>
+        <div id="box2">
+        <input type="checkbox" name="Front-end projects"/>
+        <label for="Front-end projects">Front-end projects</label>
+        <br/>
+        <br/>
+        <input type="checkbox" name="Back-end projects"/>
+        <label for="Back-end projects">Back-end projects</label>
+        <br/>
+        <br/>
+        <input type="checkbox" name="Data Visualization"/>
+        <label for="Data Visualization">Data Visualization</label>
+        </div>
+        <br/>
+        <br/>
+        <input type="submit" value="submit">
+        </form>
+    </div>
+</body>
+</html>
