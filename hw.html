@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 
-
 <style>
     h1{
         color: black;
@@ -16,6 +15,7 @@
         text-align: center;
     }
     form{
+        vertical-align: middle;
         background-color: whitesmoke;
         width: 90rem;
         height: 90rem;
@@ -38,58 +38,54 @@
     text-align: right;
 }
 
-  
-
 </style>  
 
+<head>
+    <title>nora</title>
+</head>
+
+
+
 <body>
-
     <h1>Survey Form</h1>
-
 <form>
     <br>
     <h5>Let us Know how we can improve freeCodeCamp</h5>
-        <label for="fname">*Name:</label> &nbsp;
+        <label >*Name:</label> &nbsp;
         <input type="text"  placeholder="Enter your name"><br><br>
-        <label for="email">*Email:</label>&nbsp;
+        <label >*Email:</label>&nbsp;
         <input type="text"  placeholder="Enter your Email"><br><br>
-        <label for="lname">*Age:</label>&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="number"placeholder="Age" ><br>
+        <label >*Age:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" placeholder="Age" ><br>
         <br><br>
 
         <br>
 
-        <p><label >Which option best describes your current role? 
-           &nbsp; <select class="borders" name="f">
+          <label >Which option best describes your current role? 
+           &nbsp; <select>
             <option selected>Stusent</option>
             <option>Teacher</option>
-            </p></select></label>
+            </select></label>
 
-        <label id="radio-label">*How likely is that you would recommend freeCode to a friend 
-            &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; <input id="actual-radio" name="use-preference" value="Defintely" type="radio">Defintely
-                <br>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-                <input id="actual-radio" name="use-preference" value="Maybe" type="radio">Maybe
-                <br>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-                <input id="actual-radio" name="use-preference" value="Not sure" type="radio">Not sure
+            <br> <br> <label >*How likely is that you would recommend freeCode to a friend <br>
+            <input type="radio">Defintely
+            <br>
+            <input  type="radio">Maybe
+            <br>
+            <input  type="radio">Not sure
         </label>
 
-        <p>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<label >What do you like most in FCC: 
-            &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-            <select class="borders" name="f" >
-                &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-                <option >Select an option</option>
-             <option>fun</option>
-             </p></select></label>
+        <br><br>  <label >What do you like most in FCC: 
+            <select >
+            <option >Select an option</option>
+            <option>fun</option>
+            </select></label>
        
-             <label id="radio-label">Things  that should be improved in the futer (check all that aplly)
-                &nbsp;&nbsp; &nbsp;  <input id="actual-radio" name="use-preference" value="Fornt-end project" type="checkbox">Fornt-end project
-                    <br>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-                    <input id="actual-radio" name="use-preference" value="Back-end project" type="checkbox">Back-end project
-                    <br>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-                    <input id="actual-radio" name="use-preference" value="Data Visualizition" type="checkbox">Data Visualizition
-             </label>
-
-
+             <br><br>  <label>Thing that should be improved in the futer (check all that aplly)
+                <br> <input type="checkbox">Fornt-end project
+                <br> <input  type="checkbox">Back-end project
+                <br> <input  type="checkbox">Data Visualizition
+            </label>
 </form>
 
 
